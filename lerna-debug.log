@@ -1,30 +1,30 @@
 lerna(verbose) GitUtilities.isInitialized    ()
 lerna(verbose) GitUtilities.isInitialized    () => true
 lerna(verbose) GitUtilities.getTopLevelDirectory()
-lerna(verbose) GitUtilities.getTopLevelDirectory() => "C:/projects/react-data-grid"
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\lerna.json")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\lerna.json") => true
-lerna(verbose) FileSystemUtilities.readFileSync("C:\\projects\\react-data-grid\\lerna.json")
-lerna(verbose) FileSystemUtilities.readFileSync("C:\\projects\\react-data-grid\\lerna.json") => "{\n  \"lerna\": \"2.0.0-beta.34\",\n  \"version\": \"2.0.24\"\n}"
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\package.json")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\package.json") => true
-lerna(verbose) FileSystemUtilities.readFileSync("C:\\projects\\react-data-grid\\package.json")
-lerna(verbose) FileSystemUtilities.readFileSync("C:\\projects\\react-data-grid\\package.json") => "{\n  \"name\": \"react-data-grid\",\n  \"version\": \"2.0.1\",\n  \"description\": \"Data grid for React\",\n  \"main\": \"src/index.js\",\n  \"scripts\": {\n    \"pretest\": \"npm run eslint\",\n    \"test\": \"./node_modules/.bin/karma start ./config/karma.js --singleRun true --release true\",\n    \"dev-test\": \"./node_modules/.bin/karma start ./config/karma.js --singleRun false --debug true\",\n    \"postinstall\": \"lerna bootstrap\",\n    \"build\": \"webpack --config ./config/webpack.config.prod.js --release true\",\n    \"dev-server\": \"node webpack-dev-server.js\",\n    \"beforepublish\": \"lerna run beforepublish\",\n    \"eslint\": \"./node_modules/.bin/eslint -f unix packages/react-data-grid/src/** packages/react-data-grid-addons/src/**\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git://github.com/adazzle/react-data-grid.git\"\n  },\n  \"keywords\": [\n    \"react\",\n    \"grid\",\n    \"react-component\"\n  ],\n  \"peerDependencies\": {\n    \"react\": \"^15.4.2\",\n    \"react-dom\": \"^15.4.2\"\n  },\n  \"dependencies\": {\n    \"classnames\": \"^1.2.0\",\n    \"es5-shim\": \"^4.0.3\",\n    \"fbjs\": \"^0.6.1\",\n    \"fs-extra\": \"^0.30.0\",\n    \"object-assign\": \"^2.0.0\",\n    \"react-contextmenu\": \"1.6.2\",\n    \"react-dnd\": \"^2.1.4\",\n    \"react-dnd-html5-backend\": \"^2.1.2\",\n    \"react-select\": \"^1.0.0-beta14\",\n    \"reselect\": \"^2.5.1\",\n    \"ron-react-autocomplete\": \"^4.0.2\"\n  },\n  \"devDependencies\": {\n    \"avcoveralls\": \"^1.0.0\",\n    \"babel-core\": \"^6.7.4\",\n    \"babel-eslint\": \"^4.1.6\",\n    \"babel-loader\": \"^6.2.1\",\n    \"babel-plugin-transform-class-properties\": \"^6.4.0\",\n    \"babel-plugin-transform-es3-member-expression-literals\": \"^6.5.0\",\n    \"babel-plugin-transform-es3-property-literals\": \"^6.5.0\",\n    \"babel-plugin-transform-react-jsx\": \"^6.4.0\",\n    \"babel-plugin-typecheck\": \"^3.6.1\",\n    \"babel-preset-es2015\": \"^6.9.0\",\n    \"babel-preset-es2015-loose\": \"^7.0.0\",\n    \"babel-preset-react\": \"^6.3.13\",\n    \"copy-dir\": \"^0.3.0\",\n    \"css-loader\": \"^0.26.0\",\n    \"del\": \"^1.2.1\",\n    \"enzyme\": \"^2.4.1\",\n    \"eslint\": \"^1.10.3\",\n    \"eslint-loader\": \"^1.2.0\",\n    \"eslint-plugin-react\": \"^3.15.0\",\n    \"faker\": \"^3.0.1\",\n    \"gh-pages\": \"^0.2.0\",\n    \"gulp\": \"^3.8.7\",\n    \"gulp-concat\": \"^2.3.4\",\n    \"gulp-util\": \"^3.0.0\",\n    \"immutable\": \"^3.7.3\",\n    \"istanbul-instrumenter-loader\": \"^0.1.2\",\n    \"jasmine-core\": \"^2.2.0\",\n    \"jasmine-enzyme\": \"^1.2.0\",\n    \"karma\": \"^0.13.10\",\n    \"karma-chrome-launcher\": \"^0.1.4\",\n    \"karma-coverage\": \"^0.2.6\",\n    \"karma-firefox-launcher\": \"^0.1.3\",\n    \"karma-ie-launcher\": \"^0.1.5\",\n    \"karma-jasmine\": \"^1.0.2\",\n    \"karma-jasmine-matchers\": \"^0.1.3\",\n    \"karma-junit-reporter\": \"^0.2.2\",\n    \"karma-phantomjs-launcher\": \"^0.1.4\",\n    \"karma-phantomjs-launcher-nonet\": \"^0.1.3\",\n    \"karma-webpack\": \"^1.7.0\",\n    \"lerna\": \"2.0.0-beta.34\",\n    \"minimist\": \"^1.1.0\",\n    \"mkdirp\": \"^0.5.1\",\n    \"moment\": \"^2.10.6\",\n    \"node-dir\": \"^0.1.12\",\n    \"object-assign\": \"^2.1.1\",\n    \"open\": \"0.0.5\",\n    \"react\": \"^15.4.2\",\n    \"react-addons-perf\": \"^15.4.2\",\n    \"react-addons-shallow-compare\": \"^15.4.2\",\n    \"react-addons-test-utils\": \"^15.4.2\",\n    \"react-addons-transition-group\": \"^15.4.2\",\n    \"react-dnd-test-backend\": \"^1.0.2\",\n    \"react-docgen\": \"^2.8.2\",\n    \"react-dom\": \"^15.4.2\",\n    \"rewire\": \"^2.1.3\",\n    \"rewire-webpack\": \"^1.0.0\",\n    \"run-sequence\": \"^1.2.2\",\n    \"semver\": \"^5.0.3\",\n    \"style-loader\": \"^0.13.1\",\n    \"underscore\": \"^1.8.3\",\n    \"vinyl-source-stream\": \"^0.1.1\",\n    \"webpack\": \"^1.12.10\",\n    \"webpack-dev-server\": \"^1.16.2\"\n  },\n  \"author\": \"adazzle\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/adazzle/react-data-grid/issues\"\n  },\n  \"homepage\": \"https://github.com/adazzle/react-data-grid\"\n}"
+lerna(verbose) GitUtilities.getTopLevelDirectory() => "C:/Work/Testes/react-data-grid"
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\lerna.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\lerna.json") => true
+lerna(verbose) FileSystemUtilities.readFileSync("C:\\Work\\Testes\\react-data-grid\\lerna.json")
+lerna(verbose) FileSystemUtilities.readFileSync("C:\\Work\\Testes\\react-data-grid\\lerna.json") => "{\n  \"lerna\": \"2.0.0-beta.34\",\n  \"version\": \"3.0.3\"\n}"
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\package.json") => true
+lerna(verbose) FileSystemUtilities.readFileSync("C:\\Work\\Testes\\react-data-grid\\package.json")
+lerna(verbose) FileSystemUtilities.readFileSync("C:\\Work\\Testes\\react-data-grid\\package.json") => "{\n  \"name\": \"react-data-grid\",\n  \"private\": true,\n  \"description\": \"Data grid for React\",\n  \"main\": \"src/index.js\",\n  \"scripts\": {\n    \"pretest\": \"npm run eslint\",\n    \"test\": \"./node_modules/.bin/karma start ./config/karma.js --singleRun true --release true\",\n    \"dev-test\": \"./node_modules/.bin/karma start ./config/karma.dev.js --singleRun false --debug true\",\n    \"postinstall\": \"lerna bootstrap\",\n    \"build\": \"webpack --config ./config/webpack.config.prod.js --release true\",\n    \"dev-server\": \"node webpack-dev-server.js\",\n    \"beforepublish\": \"lerna run beforepublish\",\n    \"eslint\": \"./node_modules/.bin/eslint -f unix packages/react-data-grid/src/** packages/react-data-grid-addons/src/**\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git://github.com/adazzle/react-data-grid.git\"\n  },\n  \"keywords\": [\n    \"react\",\n    \"grid\",\n    \"react-component\"\n  ],\n  \"peerDependencies\": {\n    \"create-react-class\": \"^15.6.2\",\n    \"react\": \"^15.6.2\",\n    \"react-dom\": \"^15.6.2\"\n  },\n  \"dependencies\": {\n    \"classnames\": \"^1.2.0\",\n    \"es5-shim\": \"^4.0.3\",\n    \"fbjs\": \"^0.6.1\",\n    \"fs-extra\": \"^0.30.0\",\n    \"object-assign\": \"^2.0.0\",\n    \"prop-types\": \"^15.5.10\",\n    \"react-contextmenu\": \"1.6.2\",\n    \"react-dnd\": \"^2.1.4\",\n    \"react-dnd-html5-backend\": \"^2.1.2\",\n    \"react-input-autosize\": \"1.1.0\",\n    \"react-select\": \"^1.0.0-beta14\",\n    \"reselect\": \"^2.5.1\",\n    \"ron-react-autocomplete\": \"^4.0.5\"\n  },\n  \"devDependencies\": {\n    \"avcoveralls\": \"^1.0.0\",\n    \"babel-core\": \"^6.7.4\",\n    \"babel-eslint\": \"^4.1.6\",\n    \"babel-loader\": \"^6.2.1\",\n    \"babel-plugin-transform-class-properties\": \"^6.4.0\",\n    \"babel-plugin-transform-es3-member-expression-literals\": \"^6.5.0\",\n    \"babel-plugin-transform-es3-property-literals\": \"^6.5.0\",\n    \"babel-plugin-transform-react-jsx\": \"^6.4.0\",\n    \"babel-plugin-typecheck\": \"^3.6.1\",\n    \"babel-preset-es2015\": \"^6.9.0\",\n    \"babel-preset-es2015-loose\": \"^7.0.0\",\n    \"babel-preset-react\": \"^6.3.13\",\n    \"copy-dir\": \"^0.3.0\",\n    \"create-react-class\": \"^15.6.2\",\n    \"css-loader\": \"^0.26.0\",\n    \"del\": \"^1.2.1\",\n    \"enzyme\": \"2.8.0\",\n    \"eslint\": \"^1.10.3\",\n    \"eslint-loader\": \"^1.2.0\",\n    \"eslint-plugin-react\": \"^3.15.0\",\n    \"faker\": \"^3.0.1\",\n    \"gh-pages\": \"^0.2.0\",\n    \"gulp\": \"^3.8.7\",\n    \"gulp-concat\": \"^2.3.4\",\n    \"gulp-util\": \"^3.0.0\",\n    \"immutable\": \"^3.7.3\",\n    \"istanbul-instrumenter-loader\": \"^0.1.2\",\n    \"jasmine-core\": \"2.6.1\",\n    \"jasmine-enzyme\": \"^1.2.0\",\n    \"karma\": \"^1.1.0\",\n    \"karma-chrome-launcher\": \"^0.2.0\",\n    \"karma-coverage\": \"^0.4.0\",\n    \"karma-firefox-launcher\": \"^0.1.3\",\n    \"karma-ie-launcher\": \"^1.0.0\",\n    \"karma-jasmine\": \"^1.0.2\",\n    \"karma-jasmine-matchers\": \"^0.1.3\",\n    \"karma-junit-reporter\": \"^0.2.2\",\n    \"karma-mocha-reporter\": \"^2.2.3\",\n    \"karma-phantomjs-launcher\": \"^0.1.4\",\n    \"karma-phantomjs-launcher-nonet\": \"^0.1.3\",\n    \"karma-sourcemap-loader\": \"^0.3.7\",\n    \"karma-webpack\": \"^1.7.0\",\n    \"lerna\": \"2.0.0-beta.34\",\n    \"minimist\": \"^1.1.0\",\n    \"mkdirp\": \"^0.5.1\",\n    \"moment\": \"^2.10.6\",\n    \"node-dir\": \"^0.1.12\",\n    \"object-assign\": \"^2.1.1\",\n    \"open\": \"0.0.5\",\n    \"react\": \"^15.4.2\",\n    \"react-addons-perf\": \"^15.4.2\",\n    \"react-addons-shallow-compare\": \"^15.4.2\",\n    \"react-addons-test-utils\": \"^15.4.2\",\n    \"react-addons-transition-group\": \"^15.4.2\",\n    \"react-dnd-test-backend\": \"^1.0.2\",\n    \"react-docgen\": \"^2.8.2\",\n    \"react-dom\": \"^15.4.2\",\n    \"rewire\": \"^2.1.3\",\n    \"rewire-webpack\": \"^1.0.0\",\n    \"run-sequence\": \"^1.2.2\",\n    \"semver\": \"^5.0.3\",\n    \"sinon\": \"^4.0.2\",\n    \"style-loader\": \"^0.13.1\",\n    \"underscore\": \"^1.8.3\",\n    \"vinyl-source-stream\": \"^0.1.1\",\n    \"webpack\": \"^1.12.10\",\n    \"webpack-dev-server\": \"^1.16.2\"\n  },\n  \"author\": \"adazzle\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/adazzle/react-data-grid/issues\"\n  },\n  \"homepage\": \"https://github.com/adazzle/react-data-grid\"\n}"
 lerna(info)    Lerna v2.0.0-beta.34
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\package.json")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\package.json") => true
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\lerna.json")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\lerna.json") => true
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\VERSION")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\VERSION") => false
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-addons\\package.json")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-addons\\package.json") => true
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-examples\\package.json")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-examples\\package.json") => true
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid\\package.json")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid\\package.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\package.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\lerna.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\lerna.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\VERSION")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\VERSION") => false
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons\\package.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples\\package.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid\\package.json")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid\\package.json") => true
 lerna(verbose) Attempting running PublishCommand.initialize
-lerna(info)    Current version: 2.0.24
+lerna(info)    Current version: 3.0.3
 lerna(info)    Checking for updated packages...
 lerna(verbose) GitUtilities.hasTags          ()
 lerna(verbose) GitUtilities.hasTags          () => true
@@ -32,205 +32,949 @@ lerna(verbose) GitUtilities.getLastTaggedCommit()
 lerna(verbose) GitUtilities.getLastTaggedCommit() => "871ca26148495544d718700f6b9e5e3705ac3e2a"
 lerna(verbose) GitUtilities.describeTag      ("871ca26148495544d718700f6b9e5e3705ac3e2a")
 lerna(verbose) GitUtilities.describeTag      ("871ca26148495544d718700f6b9e5e3705ac3e2a") => "v2.0.2"
-lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\projects\\react-data-grid\\packages\\react-data-grid-addons")
-lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\projects\\react-data-grid\\packages\\react-data-grid-addons") => "packages/react-data-grid-addons/index.js\npackages/react-data-grid-addons/npm-debug.log\npackages/react-data-grid-addons/package.json\npackages/react-data-grid-addons/src/__tests__/Grid.spec.js\npackages/react-data-grid-addons/src/cells/headerCells/filters/AutoCompleteFilter.js\npackages/react-data-grid-addons/src/cells/headerCells/filters/__tests__/AutoCompleteFilter.spec.js\npackages/react-data-grid-addons/src/data/RowFilterer.js\npackages/react-data-grid-addons/src/data/RowGrouperResolver.js\npackages/react-data-grid-addons/src/data/RowSorter.js\npackages/react-data-grid-addons/src/data/__tests__/RowFilterer.spec.js\npackages/react-data-grid-addons/src/data/__tests__/RowGrouper.spec.js\npackages/react-data-grid-addons/src/draggable-header/DraggableContainer.js\npackages/react-data-grid-addons/src/draggable-header/DraggableHeaderCell.js\npackages/react-data-grid-addons/src/draggable-header/__tests__/DraggableContainer.spec.js\npackages/react-data-grid-addons/src/draggable-header/__tests__/DraggableHeaderCell.spec.js\npackages/react-data-grid-addons/src/draggable-header/index.js\npackages/react-data-grid-addons/src/draggable/DropTargetRowContainer.js\npackages/react-data-grid-addons/src/editors/AutoCompleteEditor.js\npackages/react-data-grid-addons/src/editors/DateRangeEditor.js\npackages/react-data-grid-addons/src/editors/DropDownEditor.js\npackages/react-data-grid-addons/src/editors/__tests__/AutoCompleteEditor.spec.js\npackages/react-data-grid-addons/src/editors/widgets/DateRangeFilter.js\npackages/react-data-grid-addons/src/formatters/DropDownFormatter.js\npackages/react-data-grid-addons/src/index.js"
-lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\projects\\react-data-grid\\packages\\react-data-grid-examples")
-lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\projects\\react-data-grid\\packages\\react-data-grid-examples") => "packages/react-data-grid-examples/index.js\npackages/react-data-grid-examples/package.json\npackages/react-data-grid-examples/src/__tests__/GridRunner.js\npackages/react-data-grid-examples/src/docs/markdowns/Cell.md\npackages/react-data-grid-examples/src/scriptDelegator.js\npackages/react-data-grid-examples/src/scripts/documentation02-apireference.js\npackages/react-data-grid-examples/src/scripts/documentation03-components.js\npackages/react-data-grid-examples/src/scripts/example04-editable.js\npackages/react-data-grid-examples/src/scripts/example06-built-in-editors.js\npackages/react-data-grid-examples/src/scripts/example09-filterable-grid.js\npackages/react-data-grid-examples/src/scripts/example11-immutable-data.js\npackages/react-data-grid-examples/src/scripts/example12-customRowRenderer.js\npackages/react-data-grid-examples/src/scripts/example13-all-features.js\npackages/react-data-grid-examples/src/scripts/example14-all-features-immutable.js\npackages/react-data-grid-examples/src/scripts/example16-cell-drag-down.js\npackages/react-data-grid-examples/src/scripts/example16-filterable-sortable-grid.js\npackages/react-data-grid-examples/src/scripts/example17-grid-events.js\npackages/react-data-grid-examples/src/scripts/example19-column-events.js\npackages/react-data-grid-examples/src/scripts/example21-cell-selection-events.js\npackages/react-data-grid-examples/src/scripts/example21-grouping.js\npackages/react-data-grid-examples/src/scripts/example23-immutable-data-grouping.js\npackages/react-data-grid-examples/src/scripts/example24-draggable-header.js"
-lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\projects\\react-data-grid\\packages\\react-data-grid") => "packages/react-data-grid/index.js\npackages/react-data-grid/package.json\npackages/react-data-grid/src/Canvas.js\npackages/react-data-grid/src/Cell.js\npackages/react-data-grid/src/Grid.js\npackages/react-data-grid/src/GridScrollMixin.js\npackages/react-data-grid/src/Header.js\npackages/react-data-grid/src/HeaderCell.js\npackages/react-data-grid/src/HeaderRow.js\npackages/react-data-grid/src/ReactDataGrid.js\npackages/react-data-grid/src/Row.js\npackages/react-data-grid/src/Viewport.js\npackages/react-data-grid/src/ViewportScrollMixin.js\npackages/react-data-grid/src/__tests__/Cell.spec.js\npackages/react-data-grid/src/__tests__/FocusableComponentTestRunner.js\npackages/react-data-grid/src/__tests__/Grid.spec.js\npackages/react-data-grid/src/cells/headerCells/SortableHeaderCell.js\npackages/react-data-grid/src/editors/CheckboxEditor.js\npackages/react-data-grid/src/editors/EditorContainer.js\npackages/react-data-grid/src/editors/SimpleTextEditor.js\npackages/react-data-grid/src/editors/__tests__/EditorContainer.spec.js\npackages/react-data-grid/src/focusableComponentWrapper.js\npackages/react-data-grid/src/utils/index.js\npackages/react-data-grid/src/utils/isImmutableMap.js"
+lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
+lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons") => "packages/react-data-grid-addons/.npmignore\npackages/react-data-grid-addons/README.md\npackages/react-data-grid-addons/index.js\npackages/react-data-grid-addons/npm-debug.log\npackages/react-data-grid-addons/package-lock.json\npackages/react-data-grid-addons/package.json\npackages/react-data-grid-addons/src/__tests__/Grid.spec.js\npackages/react-data-grid-addons/src/cells/headerCells/filters/AutoCompleteFilter.js\npackages/react-data-grid-addons/src/cells/headerCells/filters/MultiSelectFilter.js\npackages/react-data-grid-addons/src/cells/headerCells/filters/NumericFilter.js\npackages/react-data-grid-addons/src/cells/headerCells/filters/SingleSelectFilter.js\npackages/react-data-grid-addons/src/cells/headerCells/filters/__tests__/AutoCompleteFilter.spec.js\npackages/react-data-grid-addons/src/cells/headerCells/filters/index.js\npackages/react-data-grid-addons/src/data/RowFilterer.js\npackages/react-data-grid-addons/src/data/RowGrouper.js\npackages/react-data-grid-addons/src/data/RowGrouperResolver.js\npackages/react-data-grid-addons/src/data/RowSorter.js\npackages/react-data-grid-addons/src/data/__tests__/RowFilterer.spec.js\npackages/react-data-grid-addons/src/data/__tests__/RowGrouper.spec.js\npackages/react-data-grid-addons/src/data/__tests__/Selectors.spec.js\npackages/react-data-grid-addons/src/draggable-header/DraggableContainer.js\npackages/react-data-grid-addons/src/draggable-header/DraggableHeaderCell.js\npackages/react-data-grid-addons/src/draggable-header/__tests__/DraggableContainer.spec.js\npackages/react-data-grid-addons/src/draggable-header/__tests__/DraggableHeaderCell.spec.js\npackages/react-data-grid-addons/src/draggable-header/index.js\npackages/react-data-grid-addons/src/draggable/DragDropContainer.js\npackages/react-data-grid-addons/src/draggable/DraggableHeaderCell.js\npackages/react-data-grid-addons/src/draggable/DropTargetRowContainer.js\npackages/react-data-grid-addons/src/draggable/RowActionsCell.js\npackages/react-data-grid-addons/src/draggable/RowDragLayer.js\npackages/react-data-grid-addons/src/draggable/__tests__/DropTargetRowContainer.spec.js\npackages/react-data-grid-addons/src/editors/AutoCompleteEditor.js\npackages/react-data-grid-addons/src/editors/AutoCompleteTokensEditor.js\npackages/react-data-grid-addons/src/editors/DateRangeEditor.js\npackages/react-data-grid-addons/src/editors/DropDownEditor.js\npackages/react-data-grid-addons/src/editors/__tests__/AutoCompleteEditor.spec.js\npackages/react-data-grid-addons/src/editors/__tests__/ContainerEditorWrapper.spec.js\npackages/react-data-grid-addons/src/editors/widgets/DateRangeFilter.js\npackages/react-data-grid-addons/src/formatters/DateRangeFormatter.js\npackages/react-data-grid-addons/src/formatters/DropDownFormatter.js\npackages/react-data-grid-addons/src/formatters/ImageFormatter.js\npackages/react-data-grid-addons/src/index.js\npackages/react-data-grid-addons/src/menu/ContextMenu.js\npackages/react-data-grid-addons/src/menu/MenuHeader.js\npackages/react-data-grid-addons/src/toolbars/AdvancedToolbar.js\npackages/react-data-grid-addons/src/toolbars/GroupedColumnButton.js\npackages/react-data-grid-addons/src/toolbars/GroupedColumnsPanel.js\npackages/react-data-grid-addons/src/toolbars/Toolbar.js"
+lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples") => "packages/react-data-grid-examples/index.js\npackages/react-data-grid-examples/package-lock.json\npackages/react-data-grid-examples/package.json\npackages/react-data-grid-examples/src/__tests__/Grid.integration-spec.js\npackages/react-data-grid-examples/src/__tests__/GridRunner.js\npackages/react-data-grid-examples/src/assets/js/faker.js\npackages/react-data-grid-examples/src/components/BasicExample.js\npackages/react-data-grid-examples/src/components/ColsDescription.js\npackages/react-data-grid-examples/src/components/ExampleList.js\npackages/react-data-grid-examples/src/components/Navbar.js\npackages/react-data-grid-examples/src/components/QuickStartDescription.js\npackages/react-data-grid-examples/src/components/RenderGrid.js\npackages/react-data-grid-examples/src/components/RowsDescription.js\npackages/react-data-grid-examples/src/components/exampleWrapper.js\npackages/react-data-grid-examples/src/docs/markdowns/Cell.md\npackages/react-data-grid-examples/src/documentation.html\npackages/react-data-grid-examples/src/documentation.js\npackages/react-data-grid-examples/src/examples.html\npackages/react-data-grid-examples/src/index.html\npackages/react-data-grid-examples/src/scriptDelegator.js\npackages/react-data-grid-examples/src/scripts/documentation01-gettingstarted.js\npackages/react-data-grid-examples/src/scripts/documentation02-apireference.js\npackages/react-data-grid-examples/src/scripts/documentation03-components.js\npackages/react-data-grid-examples/src/scripts/example01-basic.js\npackages/react-data-grid-examples/src/scripts/example02-resizable-cols.js\npackages/react-data-grid-examples/src/scripts/example03-fixed-cols.js\npackages/react-data-grid-examples/src/scripts/example04-editable.js\npackages/react-data-grid-examples/src/scripts/example05-custom-formatters.js\npackages/react-data-grid-examples/src/scripts/example06-built-in-editors.js\npackages/react-data-grid-examples/src/scripts/example08-sortable-cols.js\npackages/react-data-grid-examples/src/scripts/example09-filterable-grid.js\npackages/react-data-grid-examples/src/scripts/example10-one-million-rows.js\npackages/react-data-grid-examples/src/scripts/example11-immutable-data.js\npackages/react-data-grid-examples/src/scripts/example12-customRowRenderer.js\npackages/react-data-grid-examples/src/scripts/example13-all-features.js\npackages/react-data-grid-examples/src/scripts/example14-all-features-immutable.js\npackages/react-data-grid-examples/src/scripts/example15-empty-rows.js\npackages/react-data-grid-examples/src/scripts/example16-cell-drag-down.js\npackages/react-data-grid-examples/src/scripts/example16-filterable-sortable-grid.js\npackages/react-data-grid-examples/src/scripts/example16-row-select.js\npackages/react-data-grid-examples/src/scripts/example17-grid-events.js\npackages/react-data-grid-examples/src/scripts/example18-context-menu.js\npackages/react-data-grid-examples/src/scripts/example19-column-events.js\npackages/react-data-grid-examples/src/scripts/example20-cell-navigation.js\npackages/react-data-grid-examples/src/scripts/example21-cell-selection-events.js\npackages/react-data-grid-examples/src/scripts/example21-grouping.js\npackages/react-data-grid-examples/src/scripts/example22-custom-filters.js\npackages/react-data-grid-examples/src/scripts/example23-immutable-data-grouping.js\npackages/react-data-grid-examples/src/scripts/example23-row-reordering.js\npackages/react-data-grid-examples/src/scripts/example24-draggable-header.js\npackages/react-data-grid-examples/src/scripts/example25-tree-view.js\npackages/react-data-grid-examples/src/scripts/example26-tree-view-no-add-delete.js\npackages/react-data-grid-examples/src/scripts/example27-cell-actions.js\npackages/react-data-grid-examples/src/scripts/example28-scroll-to-row-index.js"
+lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+lerna(verbose) GitUtilities.diffSinceIn      ("v2.0.2", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid") => "packages/react-data-grid/README.md\npackages/react-data-grid/index.js\npackages/react-data-grid/package.json\npackages/react-data-grid/src/AppConstants.js\npackages/react-data-grid/src/Canvas.js\npackages/react-data-grid/src/Cell.js\npackages/react-data-grid/src/CellAction.js\npackages/react-data-grid/src/CellExpand.js\npackages/react-data-grid/src/ChildRowDeleteButton.js\npackages/react-data-grid/src/ColumnMetrics.js\npackages/react-data-grid/src/ColumnMetricsMixin.js\npackages/react-data-grid/src/ColumnUtils.js\npackages/react-data-grid/src/DOMMetrics.js\npackages/react-data-grid/src/Draggable.js\npackages/react-data-grid/src/EmptyChildRow.js\npackages/react-data-grid/src/Grid.js\npackages/react-data-grid/src/GridScrollMixin.js\npackages/react-data-grid/src/Header.js\npackages/react-data-grid/src/HeaderCell.js\npackages/react-data-grid/src/HeaderRow.js\npackages/react-data-grid/src/KeyboardHandlerMixin.js\npackages/react-data-grid/src/OverflowCell.js\npackages/react-data-grid/src/OverflowRow.js\npackages/react-data-grid/src/PropTypeShapes/CellActionShape.js\npackages/react-data-grid/src/PropTypeShapes/CellMetaDataShape.js\npackages/react-data-grid/src/PropTypeShapes/ExcelColumn.js\npackages/react-data-grid/src/ReactDataGrid.js\npackages/react-data-grid/src/ResizeHandle.js\npackages/react-data-grid/src/Row.js\npackages/react-data-grid/src/RowComparer.js\npackages/react-data-grid/src/RowGroup.js\npackages/react-data-grid/src/RowsContainer.js\npackages/react-data-grid/src/Viewport.js\npackages/react-data-grid/src/ViewportScrollMixin.js\npackages/react-data-grid/src/__tests__/Canvas.spec.js\npackages/react-data-grid/src/__tests__/Cell.spec.js\npackages/react-data-grid/src/__tests__/CellAction.spec.js\npackages/react-data-grid/src/__tests__/CellExpand.spec.js\npackages/react-data-grid/src/__tests__/ChildRowDeleteButton.spec.js\npackages/react-data-grid/src/__tests__/FocusableComponentTestRunner.js\npackages/react-data-grid/src/__tests__/Grid.spec.js\npackages/react-data-grid/src/__tests__/KeyboardHandlerMixin.spec.js\npackages/react-data-grid/src/__tests__/ReactDataGrid.spec.js\npackages/react-data-grid/src/__tests__/RowComparer.spec.js\npackages/react-data-grid/src/__tests__/Viewport.spec.js\npackages/react-data-grid/src/cells/headerCells/FilterableHeaderCell.js\npackages/react-data-grid/src/cells/headerCells/SortableHeaderCell.js\npackages/react-data-grid/src/editors/CheckboxEditor.js\npackages/react-data-grid/src/editors/EditorBase.js\npackages/react-data-grid/src/editors/EditorContainer.js\npackages/react-data-grid/src/editors/SimpleTextEditor.js\npackages/react-data-grid/src/editors/__tests__/EditorContainer.spec.js\npackages/react-data-grid/src/focusableComponentWrapper.js\npackages/react-data-grid/src/formatters/SelectAll.js\npackages/react-data-grid/src/formatters/SimpleCellFormatter.js\npackages/react-data-grid/src/formatters/index.js\npackages/react-data-grid/src/index.js\npackages/react-data-grid/src/utils/index.js\npackages/react-data-grid/src/utils/isImmutableMap.js"
 lerna(info)    Changes:
-lerna(info)    - react-data-grid-addons: 2.0.24 => 2.0.25
-- react-data-grid-examples: 2.0.24 => 2.0.25
-- react-data-grid: 2.0.24 => 2.0.25
+lerna(info)    - react-data-grid-addons: 3.0.3 => 3.0.4
+- react-data-grid-examples: 3.0.3 => 3.0.4
+- react-data-grid: 3.0.3 => 3.0.4
 lerna(info)    Assuming confirmation.
 lerna(verbose) Successfully ran PublishCommand.initialize
 lerna(verbose) Attempting running PublishCommand.execute
-lerna(verbose) FileSystemUtilities.writeFileSync("C:\\projects\\react-data-grid\\lerna.json", "{\n  \"lerna\": \"2.0.0-beta.34\",\n  \"version\": \"2...)
-lerna(verbose) FileSystemUtilities.writeFileSync("C:\\projects\\react-data-grid\\lerna.json", "{\n  \"lerna\": \"2.0.0-beta.34\",\n  \"version\": \"2...) => 
-lerna(verbose) FileSystemUtilities.writeFileSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-addons\\package.json", "{\n  \"name\": \"r...)
-lerna(verbose) FileSystemUtilities.writeFileSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-addons\\package.json", "{\n  \"name\": \"r...) => 
-lerna(verbose) FileSystemUtilities.writeFileSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-examples\\package.json", "{\n  \"name\": \...)
-lerna(verbose) FileSystemUtilities.writeFileSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-examples\\package.json", "{\n  \"name\": \...) => 
-lerna(verbose) FileSystemUtilities.writeFileSync("C:\\projects\\react-data-grid\\packages\\react-data-grid\\package.json", "{\n  \"name\": \"react-da...)
-lerna(verbose) FileSystemUtilities.writeFileSync("C:\\projects\\react-data-grid\\packages\\react-data-grid\\package.json", "{\n  \"name\": \"react-da...) => 
+lerna(verbose) FileSystemUtilities.writeFileSync("C:\\Work\\Testes\\react-data-grid\\lerna.json", "{\n  \"lerna\": \"2.0.0-beta.34\",\n  \"version\":...)
+lerna(verbose) FileSystemUtilities.writeFileSync("C:\\Work\\Testes\\react-data-grid\\lerna.json", "{\n  \"lerna\": \"2.0.0-beta.34\",\n  \"version\":...) => 
+lerna(verbose) FileSystemUtilities.writeFileSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons\\package.json", "{\n  \"name\":...)
+lerna(verbose) FileSystemUtilities.writeFileSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons\\package.json", "{\n  \"name\":...) => 
+lerna(verbose) FileSystemUtilities.writeFileSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples\\package.json", "{\n  \"name\...)
+lerna(verbose) FileSystemUtilities.writeFileSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples\\package.json", "{\n  \"name\...) => 
+lerna(verbose) FileSystemUtilities.writeFileSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid\\package.json", "{\n  \"name\": \"reac...)
+lerna(verbose) FileSystemUtilities.writeFileSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid\\package.json", "{\n  \"name\": \"reac...) => 
 lerna(info)    Publishing packages to npm...
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-addons\\scripts\\prepublish.js")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-addons\\scripts\\prepublish.js") => false
-lerna(verbose) No prepublish script found at C:\projects\react-data-grid\packages\react-data-grid-addons\scripts\prepublish.js
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-examples\\scripts\\prepublish.js")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid-examples\\scripts\\prepublish.js") => false
-lerna(verbose) No prepublish script found at C:\projects\react-data-grid\packages\react-data-grid-examples\scripts\prepublish.js
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid\\scripts\\prepublish.js")
-lerna(verbose) FileSystemUtilities.existsSync("C:\\projects\\react-data-grid\\packages\\react-data-grid\\scripts\\prepublish.js") => false
-lerna(verbose) No prepublish script found at C:\projects\react-data-grid\packages\react-data-grid\scripts\prepublish.js
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons\\scripts\\prepublish.js")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons\\scripts\\prepublish.js") => false
+lerna(verbose) No prepublish script found at C:\Work\Testes\react-data-grid\packages\react-data-grid-addons\scripts\prepublish.js
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples\\scripts\\prepublish.js")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples\\scripts\\prepublish.js") => false
+lerna(verbose) No prepublish script found at C:\Work\Testes\react-data-grid\packages\react-data-grid-examples\scripts\prepublish.js
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid\\scripts\\prepublish.js")
+lerna(verbose) FileSystemUtilities.existsSync("C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid\\scripts\\prepublish.js") => false
+lerna(verbose) No prepublish script found at C:\Work\Testes\react-data-grid\packages\react-data-grid\scripts\prepublish.js
 lerna(verbose) Publishing react-data-grid-addons...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-addons")
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
 lerna(verbose) Publishing react-data-grid-examples...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-examples")
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
 lerna(verbose) Publishing react-data-grid...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-    Error: Command failed: cd "C:\projects\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
-    npm ERR! publish Failed PUT 401
-    npm ERR! Windows_NT 6.3.9600
-    npm ERR! argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\appveyor\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "lerna-temp"
-    npm ERR! node v4.8.1
-    npm ERR! npm  v3.10.10
-    npm ERR! code E401
-    
-    npm ERR! You must be logged in to publish packages : react-data-grid
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-29932-53fea6eb\tmp\fromDir-5308d5a2\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-29932-53fea6eb\tmp\fromDir-5308d5a2\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-29932-53fea6eb\tmp\fromDir-5308d5a2\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-29932-53fea6eb\tmp\fromDir-5308d5a2\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-29932-53fea6eb\\tmp\\fromDir-5308d5a2\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-29932-53fea6eb\\tmp\\fromDir-5308d5a2\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-29932-53fea6eb\\tmp\\fromDir-5308d5a2\\package.tgz' }
     npm ERR! 
-    npm ERR! If you need help, you may report this error at:
-    npm ERR!     <https://github.com/npm/npm/issues>
+    npm ERR! Please try running this command again as root/Administrator.
     
-    npm ERR! Please include the following file with any support request:
-    npm ERR!     C:\projects\react-data-grid\packages\react-data-grid\npm-debug.log
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_08_328Z-debug.log
     
-        at ChildProcess.exithandler (child_process.js:200:12)
-        at emitTwo (events.js:87:13)
-        at ChildProcess.emit (events.js:172:7)
-        at maybeClose (internal/child_process.js:862:16)
-        at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(error)   Attempting to retry publishing react-data-grid...
-    Error: Command failed: cd "C:\projects\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
-    npm ERR! publish Failed PUT 401
-    npm ERR! Windows_NT 6.3.9600
-    npm ERR! argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\appveyor\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "lerna-temp"
-    npm ERR! node v4.8.1
-    npm ERR! npm  v3.10.10
-    npm ERR! code E401
-    
-    npm ERR! You must be logged in to publish packages : react-data-grid
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-29932-53fea6eb\tmp\fromDir-5308d5a2\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-29932-53fea6eb\tmp\fromDir-5308d5a2\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-29932-53fea6eb\tmp\fromDir-5308d5a2\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-29932-53fea6eb\tmp\fromDir-5308d5a2\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-29932-53fea6eb\\tmp\\fromDir-5308d5a2\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-29932-53fea6eb\\tmp\\fromDir-5308d5a2\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-29932-53fea6eb\\tmp\\fromDir-5308d5a2\\package.tgz' }
     npm ERR! 
-    npm ERR! If you need help, you may report this error at:
-    npm ERR!     <https://github.com/npm/npm/issues>
+    npm ERR! Please try running this command again as root/Administrator.
     
-    npm ERR! Please include the following file with any support request:
-    npm ERR!     C:\projects\react-data-grid\packages\react-data-grid\npm-debug.log
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_08_328Z-debug.log
     
-        at ChildProcess.exithandler (child_process.js:200:12)
-        at emitTwo (events.js:87:13)
-        at ChildProcess.emit (events.js:172:7)
-        at maybeClose (internal/child_process.js:862:16)
-        at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(verbose) Publishing react-data-grid...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-addons")
-    Error: Command failed: cd "C:\projects\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
-    npm ERR! publish Failed PUT 401
-    npm ERR! Windows_NT 6.3.9600
-    npm ERR! argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\appveyor\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "lerna-temp"
-    npm ERR! node v4.8.1
-    npm ERR! npm  v3.10.10
-    npm ERR! code E401
-    
-    npm ERR! You must be logged in to publish packages : react-data-grid-addons
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-22620-12b36b8b\tmp\fromDir-572a03bb\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-22620-12b36b8b\tmp\fromDir-572a03bb\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-22620-12b36b8b\tmp\fromDir-572a03bb\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-22620-12b36b8b\tmp\fromDir-572a03bb\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-22620-12b36b8b\\tmp\\fromDir-572a03bb\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-22620-12b36b8b\\tmp\\fromDir-572a03bb\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-22620-12b36b8b\\tmp\\fromDir-572a03bb\\package.tgz' }
     npm ERR! 
-    npm ERR! If you need help, you may report this error at:
-    npm ERR!     <https://github.com/npm/npm/issues>
+    npm ERR! Please try running this command again as root/Administrator.
     
-    npm ERR! Please include the following file with any support request:
-    npm ERR!     C:\projects\react-data-grid\packages\react-data-grid-addons\npm-debug.log
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_08_342Z-debug.log
     
-        at ChildProcess.exithandler (child_process.js:200:12)
-        at emitTwo (events.js:87:13)
-        at ChildProcess.emit (events.js:172:7)
-        at maybeClose (internal/child_process.js:862:16)
-        at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
-lerna(error)   Attempting to retry publishing react-data-grid-addons...
-    Error: Command failed: cd "C:\projects\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
-    npm ERR! publish Failed PUT 401
-    npm ERR! Windows_NT 6.3.9600
-    npm ERR! argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\appveyor\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "lerna-temp"
-    npm ERR! node v4.8.1
-    npm ERR! npm  v3.10.10
-    npm ERR! code E401
-    
-    npm ERR! You must be logged in to publish packages : react-data-grid-addons
-    npm ERR! 
-    npm ERR! If you need help, you may report this error at:
-    npm ERR!     <https://github.com/npm/npm/issues>
-    
-    npm ERR! Please include the following file with any support request:
-    npm ERR!     C:\projects\react-data-grid\packages\react-data-grid-addons\npm-debug.log
-    
-        at ChildProcess.exithandler (child_process.js:200:12)
-        at emitTwo (events.js:87:13)
-        at ChildProcess.emit (events.js:172:7)
-        at maybeClose (internal/child_process.js:862:16)
-        at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
-lerna(verbose) Publishing react-data-grid-addons...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-addons")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(error)   Attempting to retry publishing react-data-grid...
-lerna(verbose) Publishing react-data-grid...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-examples")
-    Error: Command failed: cd "C:\projects\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
-    npm ERR! publish Failed PUT 401
-    npm ERR! Windows_NT 6.3.9600
-    npm ERR! argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\appveyor\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "lerna-temp"
-    npm ERR! node v4.8.1
-    npm ERR! npm  v3.10.10
-    npm ERR! code E401
-    
-    npm ERR! You must be logged in to publish packages : react-data-grid-examples
-    npm ERR! 
-    npm ERR! If you need help, you may report this error at:
-    npm ERR!     <https://github.com/npm/npm/issues>
-    
-    npm ERR! Please include the following file with any support request:
-    npm ERR!     C:\projects\react-data-grid\packages\react-data-grid-examples\npm-debug.log
-    
-        at ChildProcess.exithandler (child_process.js:200:12)
-        at emitTwo (events.js:87:13)
-        at ChildProcess.emit (events.js:172:7)
-        at maybeClose (internal/child_process.js:862:16)
-        at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(error)   Attempting to retry publishing react-data-grid-examples...
-    Error: Command failed: cd "C:\projects\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
-    npm ERR! publish Failed PUT 401
-    npm ERR! Windows_NT 6.3.9600
-    npm ERR! argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\appveyor\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "publish" "--tag" "lerna-temp"
-    npm ERR! node v4.8.1
-    npm ERR! npm  v3.10.10
-    npm ERR! code E401
-    
-    npm ERR! You must be logged in to publish packages : react-data-grid-examples
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-22620-12b36b8b\tmp\fromDir-572a03bb\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-22620-12b36b8b\tmp\fromDir-572a03bb\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-22620-12b36b8b\tmp\fromDir-572a03bb\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-22620-12b36b8b\tmp\fromDir-572a03bb\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-22620-12b36b8b\\tmp\\fromDir-572a03bb\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-22620-12b36b8b\\tmp\\fromDir-572a03bb\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-22620-12b36b8b\\tmp\\fromDir-572a03bb\\package.tgz' }
     npm ERR! 
-    npm ERR! If you need help, you may report this error at:
-    npm ERR!     <https://github.com/npm/npm/issues>
+    npm ERR! Please try running this command again as root/Administrator.
     
-    npm ERR! Please include the following file with any support request:
-    npm ERR!     C:\projects\react-data-grid\packages\react-data-grid-examples\npm-debug.log
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_08_342Z-debug.log
     
-        at ChildProcess.exithandler (child_process.js:200:12)
-        at emitTwo (events.js:87:13)
-        at ChildProcess.emit (events.js:172:7)
-        at maybeClose (internal/child_process.js:862:16)
-        at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(verbose) Publishing react-data-grid-examples...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-examples")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(error)   Attempting to retry publishing react-data-grid...
-lerna(verbose) Publishing react-data-grid...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-addons")
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-50832-ffe3d997\tmp\fromDir-b01794b5\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-50832-ffe3d997\tmp\fromDir-b01794b5\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-50832-ffe3d997\tmp\fromDir-b01794b5\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-50832-ffe3d997\tmp\fromDir-b01794b5\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-50832-ffe3d997\\tmp\\fromDir-b01794b5\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-50832-ffe3d997\\tmp\\fromDir-b01794b5\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-50832-ffe3d997\\tmp\\fromDir-b01794b5\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_08_509Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(error)   Attempting to retry publishing react-data-grid-addons...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-50832-ffe3d997\tmp\fromDir-b01794b5\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-50832-ffe3d997\tmp\fromDir-b01794b5\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-50832-ffe3d997\tmp\fromDir-b01794b5\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-50832-ffe3d997\tmp\fromDir-b01794b5\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-50832-ffe3d997\\tmp\\fromDir-b01794b5\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-50832-ffe3d997\\tmp\\fromDir-b01794b5\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-50832-ffe3d997\\tmp\\fromDir-b01794b5\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_08_509Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(verbose) Publishing react-data-grid-addons...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-addons")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(error)   Attempting to retry publishing react-data-grid...
-lerna(verbose) Publishing react-data-grid...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-examples")
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-61388-0a5502cc\tmp\fromDir-d22612dc\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-61388-0a5502cc\tmp\fromDir-d22612dc\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-61388-0a5502cc\tmp\fromDir-d22612dc\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-61388-0a5502cc\tmp\fromDir-d22612dc\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-61388-0a5502cc\\tmp\\fromDir-d22612dc\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-61388-0a5502cc\\tmp\\fromDir-d22612dc\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-61388-0a5502cc\\tmp\\fromDir-d22612dc\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_13_010Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(error)   Attempting to retry publishing react-data-grid-examples...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-61388-0a5502cc\tmp\fromDir-d22612dc\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-61388-0a5502cc\tmp\fromDir-d22612dc\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-61388-0a5502cc\tmp\fromDir-d22612dc\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-61388-0a5502cc\tmp\fromDir-d22612dc\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-61388-0a5502cc\\tmp\\fromDir-d22612dc\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-61388-0a5502cc\\tmp\\fromDir-d22612dc\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-61388-0a5502cc\\tmp\\fromDir-d22612dc\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_13_010Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(verbose) Publishing react-data-grid-examples...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-examples")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-addons")
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-9484-ae8de718\tmp\fromDir-8315733e\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-9484-ae8de718\tmp\fromDir-8315733e\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-9484-ae8de718\tmp\fromDir-8315733e\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-9484-ae8de718\tmp\fromDir-8315733e\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-9484-ae8de718\\tmp\\fromDir-8315733e\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-9484-ae8de718\\tmp\\fromDir-8315733e\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-9484-ae8de718\\tmp\\fromDir-8315733e\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_13_032Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(error)   Attempting to retry publishing react-data-grid...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-9484-ae8de718\tmp\fromDir-8315733e\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-9484-ae8de718\tmp\fromDir-8315733e\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-9484-ae8de718\tmp\fromDir-8315733e\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-9484-ae8de718\tmp\fromDir-8315733e\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-9484-ae8de718\\tmp\\fromDir-8315733e\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-9484-ae8de718\\tmp\\fromDir-8315733e\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-9484-ae8de718\\tmp\\fromDir-8315733e\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_13_032Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(verbose) Publishing react-data-grid...
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-27700-d6c3e68b\tmp\fromDir-7e947286\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-27700-d6c3e68b\tmp\fromDir-7e947286\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-27700-d6c3e68b\tmp\fromDir-7e947286\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-27700-d6c3e68b\tmp\fromDir-7e947286\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-27700-d6c3e68b\\tmp\\fromDir-7e947286\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-27700-d6c3e68b\\tmp\\fromDir-7e947286\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-27700-d6c3e68b\\tmp\\fromDir-7e947286\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_13_424Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(error)   Attempting to retry publishing react-data-grid-addons...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-27700-d6c3e68b\tmp\fromDir-7e947286\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-27700-d6c3e68b\tmp\fromDir-7e947286\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-27700-d6c3e68b\tmp\fromDir-7e947286\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-27700-d6c3e68b\tmp\fromDir-7e947286\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-27700-d6c3e68b\\tmp\\fromDir-7e947286\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-27700-d6c3e68b\\tmp\\fromDir-7e947286\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-27700-d6c3e68b\\tmp\\fromDir-7e947286\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_13_424Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(verbose) Publishing react-data-grid-addons...
-lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid-addons")
-lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\projects\\react-data-grid\\packages\\react-data-grid")
-lerna(error)   Ran out of retries while publishing react-data-grid
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-17548-6856f47a\tmp\fromDir-08bd613a\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-17548-6856f47a\tmp\fromDir-08bd613a\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-17548-6856f47a\tmp\fromDir-08bd613a\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-17548-6856f47a\tmp\fromDir-08bd613a\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-17548-6856f47a\\tmp\\fromDir-08bd613a\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-17548-6856f47a\\tmp\\fromDir-08bd613a\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-17548-6856f47a\\tmp\\fromDir-08bd613a\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_17_670Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(error)   Attempting to retry publishing react-data-grid-examples...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-17548-6856f47a\tmp\fromDir-08bd613a\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-17548-6856f47a\tmp\fromDir-08bd613a\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-17548-6856f47a\tmp\fromDir-08bd613a\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-17548-6856f47a\tmp\fromDir-08bd613a\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-17548-6856f47a\\tmp\\fromDir-08bd613a\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-17548-6856f47a\\tmp\\fromDir-08bd613a\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-17548-6856f47a\\tmp\\fromDir-08bd613a\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_17_670Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(verbose) Publishing react-data-grid-examples...
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-12420-a367391b\tmp\fromDir-93f014fa\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-12420-a367391b\tmp\fromDir-93f014fa\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-12420-a367391b\tmp\fromDir-93f014fa\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-12420-a367391b\tmp\fromDir-93f014fa\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-12420-a367391b\\tmp\\fromDir-93f014fa\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-12420-a367391b\\tmp\\fromDir-93f014fa\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-12420-a367391b\\tmp\\fromDir-93f014fa\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_17_714Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(error)   Attempting to retry publishing react-data-grid...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-12420-a367391b\tmp\fromDir-93f014fa\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-12420-a367391b\tmp\fromDir-93f014fa\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-12420-a367391b\tmp\fromDir-93f014fa\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-12420-a367391b\tmp\fromDir-93f014fa\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-12420-a367391b\\tmp\\fromDir-93f014fa\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-12420-a367391b\\tmp\\fromDir-93f014fa\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-12420-a367391b\\tmp\\fromDir-93f014fa\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_17_714Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(verbose) Publishing react-data-grid...
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-44764-b154174d\tmp\fromDir-b3b42bc0\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-44764-b154174d\tmp\fromDir-b3b42bc0\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-44764-b154174d\tmp\fromDir-b3b42bc0\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-44764-b154174d\tmp\fromDir-b3b42bc0\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-44764-b154174d\\tmp\\fromDir-b3b42bc0\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-44764-b154174d\\tmp\\fromDir-b3b42bc0\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-44764-b154174d\\tmp\\fromDir-b3b42bc0\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_18_180Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(error)   Attempting to retry publishing react-data-grid-addons...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-44764-b154174d\tmp\fromDir-b3b42bc0\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-44764-b154174d\tmp\fromDir-b3b42bc0\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-44764-b154174d\tmp\fromDir-b3b42bc0\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-44764-b154174d\tmp\fromDir-b3b42bc0\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-44764-b154174d\\tmp\\fromDir-b3b42bc0\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-44764-b154174d\\tmp\\fromDir-b3b42bc0\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-44764-b154174d\\tmp\\fromDir-b3b42bc0\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_18_180Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(verbose) Publishing react-data-grid-addons...
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-10960-60a6bc9b\tmp\fromDir-e5291189\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-10960-60a6bc9b\tmp\fromDir-e5291189\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-10960-60a6bc9b\tmp\fromDir-e5291189\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-10960-60a6bc9b\tmp\fromDir-e5291189\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-10960-60a6bc9b\\tmp\\fromDir-e5291189\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-10960-60a6bc9b\\tmp\\fromDir-e5291189\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-10960-60a6bc9b\\tmp\\fromDir-e5291189\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_21_985Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(error)   Attempting to retry publishing react-data-grid-examples...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-10960-60a6bc9b\tmp\fromDir-e5291189\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-10960-60a6bc9b\tmp\fromDir-e5291189\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-10960-60a6bc9b\tmp\fromDir-e5291189\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-10960-60a6bc9b\tmp\fromDir-e5291189\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-10960-60a6bc9b\\tmp\\fromDir-e5291189\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-10960-60a6bc9b\\tmp\\fromDir-e5291189\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-10960-60a6bc9b\\tmp\\fromDir-e5291189\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_21_985Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(verbose) Publishing react-data-grid-examples...
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-41116-31e03f2f\tmp\fromDir-4057f47c\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-41116-31e03f2f\tmp\fromDir-4057f47c\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-41116-31e03f2f\tmp\fromDir-4057f47c\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-41116-31e03f2f\tmp\fromDir-4057f47c\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-41116-31e03f2f\\tmp\\fromDir-4057f47c\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-41116-31e03f2f\\tmp\\fromDir-4057f47c\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-41116-31e03f2f\\tmp\\fromDir-4057f47c\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_22_051Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(error)   Attempting to retry publishing react-data-grid...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-41116-31e03f2f\tmp\fromDir-4057f47c\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-41116-31e03f2f\tmp\fromDir-4057f47c\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-41116-31e03f2f\tmp\fromDir-4057f47c\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-41116-31e03f2f\tmp\fromDir-4057f47c\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-41116-31e03f2f\\tmp\\fromDir-4057f47c\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-41116-31e03f2f\\tmp\\fromDir-4057f47c\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-41116-31e03f2f\\tmp\\fromDir-4057f47c\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_22_051Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(verbose) Publishing react-data-grid...
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-65788-bc843250\tmp\fromDir-2090361f\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-65788-bc843250\tmp\fromDir-2090361f\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-65788-bc843250\tmp\fromDir-2090361f\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-65788-bc843250\tmp\fromDir-2090361f\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-65788-bc843250\\tmp\\fromDir-2090361f\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-65788-bc843250\\tmp\\fromDir-2090361f\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-65788-bc843250\\tmp\\fromDir-2090361f\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_22_399Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(error)   Attempting to retry publishing react-data-grid-addons...
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-addons" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-65788-bc843250\tmp\fromDir-2090361f\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-65788-bc843250\tmp\fromDir-2090361f\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-65788-bc843250\tmp\fromDir-2090361f\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-65788-bc843250\tmp\fromDir-2090361f\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-65788-bc843250\\tmp\\fromDir-2090361f\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-65788-bc843250\\tmp\\fromDir-2090361f\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-65788-bc843250\\tmp\\fromDir-2090361f\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_22_399Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(verbose) Publishing react-data-grid-addons...
+lerna(verbose) NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-addons")
+lerna(error)   NpmUtilities.publishTaggedInDir("lerna-temp", "C:\\Work\\Testes\\react-data-grid\\packages\\react-data-grid-examples")
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-59808-76100421\tmp\fromDir-37319727\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-59808-76100421\tmp\fromDir-37319727\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-59808-76100421\tmp\fromDir-37319727\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-59808-76100421\tmp\fromDir-37319727\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-59808-76100421\\tmp\\fromDir-37319727\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-59808-76100421\\tmp\\fromDir-37319727\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-59808-76100421\\tmp\\fromDir-37319727\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_25_791Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+lerna(error)   Ran out of retries while publishing react-data-grid-examples
+    Error: Command failed: cd "C:\Work\Testes\react-data-grid\packages\react-data-grid-examples" && npm publish --tag lerna-temp
+    npm ERR! path C:\Users\xolla\AppData\Local\Temp\npm-59808-76100421\tmp\fromDir-37319727\package.tgz
+    npm ERR! code EPERM
+    npm ERR! errno -4048
+    npm ERR! syscall unlink
+    npm ERR! Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-59808-76100421\tmp\fromDir-37319727\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!  { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-59808-76100421\tmp\fromDir-37319727\package.tgz'
+    npm ERR!     at Error (native)
+    npm ERR!   cause: 
+    npm ERR!    { Error: EPERM: operation not permitted, unlink 'C:\Users\xolla\AppData\Local\Temp\npm-59808-76100421\tmp\fromDir-37319727\package.tgz'
+    npm ERR!        at Error (native)
+    npm ERR!      errno: -4048,
+    npm ERR!      code: 'EPERM',
+    npm ERR!      syscall: 'unlink',
+    npm ERR!      path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-59808-76100421\\tmp\\fromDir-37319727\\package.tgz' },
+    npm ERR!   isOperational: true,
+    npm ERR!   stack: 'Error: EPERM: operation not permitted, unlink \'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-59808-76100421\\tmp\\fromDir-37319727\\package.tgz\'\n    at Error (native)',
+    npm ERR!   errno: -4048,
+    npm ERR!   code: 'EPERM',
+    npm ERR!   syscall: 'unlink',
+    npm ERR!   path: 'C:\\Users\\xolla\\AppData\\Local\\Temp\\npm-59808-76100421\\tmp\\fromDir-37319727\\package.tgz' }
+    npm ERR! 
+    npm ERR! Please try running this command again as root/Administrator.
+    
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\xolla\AppData\Roaming\npm-cache\_logs\2018-01-15T15_01_25_791Z-debug.log
+    
+        at ChildProcess.exithandler (child_process.js:204:12)
+        at emitTwo (events.js:106:13)
+        at ChildProcess.emit (events.js:191:7)
+        at maybeClose (internal/child_process.js:886:16)
+        at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 lerna(error)   Errored while running PublishCommand.execute
